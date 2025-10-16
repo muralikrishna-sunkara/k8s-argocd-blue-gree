@@ -15,4 +15,4 @@ spec:
     name: http
   selector:
     app: sample-app
-    version: blue  # Currently pointing to blue
+    version: green  # Currently pointing to blue
