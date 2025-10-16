@@ -1,0 +1,16 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+metadata:
+  name: sample-app-green
+
+resources:
+  - deployment.yaml
+  - service.yaml
+
+commonLabels:
+  app: sample-app
+  environment: staging
+
+commonAnnotations:
+  deployment.kubernetes.io/description: "Green environment - v2.0"
+  managed-by: argocd
