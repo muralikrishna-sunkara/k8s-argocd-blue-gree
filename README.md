@@ -1,4 +1,4 @@
-# k8s-argocd-blue-gree
+# k8s-argocd-blue-green
 
 A sample project demonstrating **Blue-Green Deployment** strategy on Kubernetes using [ArgoCD](https://argoproj.github.io/argo-cd/). This repository provides manifests and instructions to implement zero-downtime deployments by leveraging ArgoCD's declarative GitOps approach.
 
